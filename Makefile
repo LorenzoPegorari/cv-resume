@@ -12,6 +12,12 @@ cv: cv.pdf
 
 cv.pdf: $(SRC_DIR)/$(SRC_CV).tex
 	$(CC) -output-directory=$(BIN_DIR) $<
+	
+# cv-long
+cv-long: cv-long.pdf
+
+cv-long.pdf: $(SRC_DIR)/$(SRC_CVLONG).tex
+	$(CC) -output-directory=$(BIN_DIR) $<
 
 # Clean
 clean:
