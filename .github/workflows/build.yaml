@@ -15,4 +15,7 @@ jobs:
 
     - name: Compile
       shell: bash -l {0}
-      run: make && make clean
+      run: |
+	      mkdir -p output
+        make cv
+        make clean

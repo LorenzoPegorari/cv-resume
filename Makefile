@@ -5,13 +5,12 @@ CC = xelatex
 SRC_DIR = src
 BIN_DIR = output
 SRC_CV = cv
-BIN_CV = cv
+SRC_CVLONG = cv-long
 
-# Main
-main: $(BIN_CV).pdf
+# cv
+cv: cv.pdf
 
-$(BIN_CV).pdf: $(SRC_DIR)/$(SRC_CV).tex
-	mkdir -p $(BIN_DIR)/
+cv.pdf: $(SRC_DIR)/$(SRC_CV).tex
 	$(CC) -output-directory=$(BIN_DIR) $<
 
 # Clean
