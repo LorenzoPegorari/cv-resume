@@ -16,7 +16,5 @@ jobs:
     - name: Compile
       shell: bash -l {0}
       run: |
-	      mkdir -p output
-        make cv
-        make cv-long
-        make clean
+	      chmod +x compile.sh
+        ./compile.sh
