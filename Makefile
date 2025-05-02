@@ -3,7 +3,7 @@
 # Variables
 CC = xelatex
 SRC_DIR = src
-BIN_DIR = output
+BIN_DIR = pdf
 SRC_CV = cv
 SRC_CVLONG = cv-long
 
