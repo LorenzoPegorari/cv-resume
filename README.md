@@ -4,9 +4,9 @@ This repo contains the source files of the Curriculum Vitae of [Lorenzo Pegorari
 
 ## Links
 
-The latest version of my CV can be viewed [here](https://lorenzopegorari.github.io/cv-resume/output/cv.pdf).
+The latest version of my CV can be viewed [here](https://lorenzopegorari.github.io/cv-resume/pdf/cv.pdf).
 
-A longer version of my CV (that contains basically everything that I have done) can be viewed [here](https://lorenzopegorari.github.io/cv-resume/output/cv-long.pdf).
+A longer version of my CV (that contains basically everything that I have done) can be viewed [here](https://lorenzopegorari.github.io/cv-resume/pdf/cv-long.pdf).
 
 ## Credits
 
