@@ -1,6 +1,6 @@
 # cv-resume
 
-This repo contains the source files of the Curriculum Vitae of [Lorenzo Pegorari](https://github.com/LorenzoPegorari).
+This page contains the Curriculum Vitae of [Lorenzo Pegorari](https://github.com/LorenzoPegorari).
 
 ## Links
 
