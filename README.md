@@ -14,7 +14,7 @@ This repo requires:
 - xelatex (with: `sudo apt install texlive-xetex`)
 - fontawesome5 (with: `sudo apt install texlive-fonts-extra`)
 
-Then, simply running `./compile.sh` should build everything correctly.
+Then simply running `./compile.sh` should build everything correctly.
 
 ## Credits
 
