@@ -1,6 +1,6 @@
-# cv-resume
+<h1 align="center">cv-resume</h1>
 
-This page contains the *Curriculum Vitae* of [Lorenzo Pegorari](https://www.linkedin.com/in/lorenzopegorari/).
+This page contains the *Curriculum Vitae* of [Lorenzo Pegorari](https://github.com/LorenzoPegorari).
 
 ## Links
 
