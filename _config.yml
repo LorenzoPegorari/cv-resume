@@ -1,0 +1,11 @@
+# Jekyll template created by LorenzoPegorari
+# The "academicpages" theme was used as a reference (https://github.com/academicpages/academicpages.github.io)
+
+# Basic site settings
+lang        : "en-US"
+title       : "cv-resume"
+author      : "Lorenzo Pegorari"
+description : "Lorenzo Pegorari's Curriculum Vitae (CV) and resume."
+url         : https://lorenzopegorari.github.io  # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+baseurl     : "/cv-resume"  # the subpath of your site, e.g. "/blog"
+header      : "Curriculum Vitae"  # Text for header
