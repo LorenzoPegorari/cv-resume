@@ -129,3 +129,26 @@
 .markdown-body table th {
     font-weight: 600;
 }
+
+/* Code */
+.markdown-body code, .markdown-body tt {
+    margin: 0;
+    padding: .2em .4em;
+    border-radius: 6px;
+    background-color: #656c7633;
+    font-size: 105%;
+    white-space: break-spaces;
+}
+
+.markdown-body .highlight pre, .markdown-body pre {
+    padding: 1rem;
+    border-radius: 6px;
+    background-color: #656c7633;
+    line-height: 1.45;
+    overflow: auto;
+}
+
+.markdown-body .highlight pre code, .markdown-body pre code, 
+.markdown-body .highlight pre tt, .markdown-body pre tt {
+    background-color: transparent;
+}
