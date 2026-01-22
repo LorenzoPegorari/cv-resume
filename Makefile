@@ -6,6 +6,7 @@ SRC_DIR = src
 BIN_DIR = pdf
 SRC_CV = cv
 SRC_CVLONG = cv-long
+SRC_COVERLETTER = coverletter
 
 # cv
 cv: cv.pdf
@@ -17,6 +18,12 @@ cv.pdf: $(SRC_DIR)/$(SRC_CV).tex
 cv-long: cv-long.pdf
 
 cv-long.pdf: $(SRC_DIR)/$(SRC_CVLONG).tex
+	$(CC) -output-directory=$(BIN_DIR) $<
+
+# coverletter
+coverletter: coverletter.pdf
+
+coverletter.pdf: $(SRC_DIR)/$(SRC_COVERLETTER).tex
 	$(CC) -output-directory=$(BIN_DIR) $<
 
 # Clean
